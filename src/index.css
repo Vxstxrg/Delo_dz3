@@ -1,83 +1,99 @@
-
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 .add-form-light,
 .todo-list-light {
-  color: #252525;
-  background-color: #f7f7f7;
+	color: #252525;
+	background-color: #f7f7f7;
 }
 
 .add-form-dark,
 .todo-list-dark {
-  color: #f5f5f5;
-  background-color: #202124;
+	color: #f5f5f5;
+	background-color: #202124;
 }
 
 header {
-  height: 72px;
-  padding: 10px 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid #dcdcdc;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+	height: 72px;
+	padding: 10px 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #dcdcdc;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 .header-light {
-  color: #24324a;
-  background-color: #eaf2ff;
-  border-color: #cbdcf5;
+	color: #24324a;
+	background-color: #eaf2ff;
+	border-color: #cbdcf5;
 }
 
 .header-dark {
-  color: #edf4ff;
-  background-color: #182235;
-  border-color: #34445f;
+	color: #edf4ff;
+	background-color: #182235;
+	border-color: #34445f;
 }
 
-.todo-list{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 12px;
-  padding: 20px;
+.todo-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 12px;
+	padding: 20px;
 }
 
-.todo-item{
-  padding: 16px 18px;
-  margin: 0;
-  width: 380px;
-  display: flex;
-  justify-content: space-between;
-  border: 1px solid #dcdcdc;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
+.todo-item {
+	padding: 16px 18px;
+	margin: 0;
+	width: 380px;
+	box-sizing: border-box;
+
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #dcdcdc;
+	border-radius: 10px;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
+
+
+	white-space: normal;
+
+	overflow-wrap: break-word;
+
 }
 
 .todo-item-light {
-  color: #29364d;
-  background-color: #f8fbff;
-  border-color: #cfddf0;
+	color: #29364d;
+	background-color: #f8fbff;
+	border-color: #cfddf0;
 }
 
 .todo-item-dark {
-  color: #e9f1ff;
-  background-color: #26334a;
-  border-color: #415576;
+	color: #e9f1ff;
+	background-color: #26334a;
+	border-color: #415576;
 }
 
-.add-form{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  height: 80px;
-  border-bottom: 1px solid #e5e5e5;
+.add-form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 16px;
+	height: 80px;
+	border-bottom: 1px solid #e5e5e5;
 }
 
 
+
+
+.app-wrapper-dark {
+	background-color: #202124;
+}
+
+.app-wrapper-light {
+	background-color: #f8fbff;
+}
